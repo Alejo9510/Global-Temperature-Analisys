@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "global-temperature-analisys"
+version = "0.1.0"
+description = ""
+authors = ["Alejo9510 <edwinaperez32@gmail.com>"]
+readme = "README.md"
+packages = [{include = "global_temperature_analisys"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.3"
+polars = "^0.15.16"
+pyspark = "^3.3.1"
+plotly = "^5.13.0"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
